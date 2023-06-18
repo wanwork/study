@@ -1,0 +1,20 @@
+
+function getAllLetters(str) {
+
+  const strArray = [];
+
+  
+  // 인자를 받았으면 그 인자 인덱스만큼 하나씩 출력을 해야함.
+   // 그 출력이 straarry에 담겨야함
+   
+    const sentence = str;
+    for(let i = 0; i < sentence.length ; i++) {
+      // console.log(sentence[i]);
+      strArray.push(sentence[i]);
+      
+    } 
+  
+  return strArray;
+}
+
+console.log(getAllLetters('banana'));
